@@ -1,0 +1,11 @@
+{
+  "name": "samiya/harmony",
+  "description": "react with php",
+  "require": {
+    "sendgrid/sendgrid": "^7.0",
+    "stripe/stripe-php": "^14.6"
+  },
+  "config": {
+    "secure-http": true
+  }
+}
