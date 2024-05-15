@@ -1,0 +1,49 @@
+.con {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.hideemail {
+  display: none;
+}
+h1 .introo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.otp-forming {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputField {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submitButtonss {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.responsess {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.errorss {
+  color: red;
+}
+
+.successess {
+  color: green;
+}
