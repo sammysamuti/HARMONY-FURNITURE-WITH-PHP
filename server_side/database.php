@@ -1,5 +1,5 @@
 <?php
-header("Access-Control-Allow-Origin: *");
+
 $servername = "localhost";
 $username = "root";
 $password = "123456789@abc";
@@ -11,6 +11,7 @@ try {
 
     $sql = "CREATE DATABASE IF NOT EXISTS $dbname ";
     $conn->exec($sql);
+    echo "Database created successfully";
 } catch (PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
 }
